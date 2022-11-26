@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: black;
+}
+
+p {
+  color: whitesmoke;
+}
+
+.container {
+  display: grid;
+  /* border: whitesmoke;
+  border-style: dashed; */
+  width: 35vw;
+  margin: auto;
+  margin-top: 20%;
+}
+
+.container > div {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.one {
+  border: whitesmoke;
+  border-style: dashed;
+}
+
+.one:hover {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+.two {
+  border: whitesmoke;
+  border-style: dashed;
+}
+
+.two:hover {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
