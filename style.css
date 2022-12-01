@@ -12,8 +12,12 @@ p {
   /* border: whitesmoke;
   border-style: dashed; */
   width: 35vw;
-  margin: auto;
-  margin-top: 20%;
+  top: 42vh;
+  left: 30vw;
+  /* margin: auto; */
+  /* margin-top: 20%; */
+  text-align: center;
+  position: relative;
 }
 
 .container > div {
@@ -22,22 +26,22 @@ p {
   justify-content: center;
 }
 .one {
-  border: whitesmoke;
-  border-style: dashed;
+  /* border: whitesmoke;
+  border-style: dashed; */
 }
 
 .one:hover {
-  background: rgb(63, 94, 251);
+  /* background: rgb(63, 94, 251);
   background: radial-gradient(
     circle,
     rgba(63, 94, 251, 1) 0%,
     rgba(252, 70, 107, 1) 100%
-  );
+  ); */
 }
 
 .two {
-  border: whitesmoke;
-  border-style: dashed;
+  /* border: whitesmoke;
+  border-style: dashed; */
 }
 
 .two:hover {
@@ -46,5 +50,47 @@ p {
     circle,
     rgba(63, 94, 251, 1) 0%,
     rgba(252, 70, 107, 1) 100%
+  );
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.ring {
+  position: absolute;
+  z-index: -1;
+  top: 20vh;
+  left: 31vw;
+  width: 60vh;
+  height: 60vh;
+  margin: auto;
+  border: 2px #ffffff dashed;
+  border-radius: 100%;
+  -webkit-animation: spin-right 60s linear infinite;
+  animation: spin-right 120s linear infinite;
+}
+
+.ring:hover {
+  /* background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  ); */
+  background: radial-gradient(
+    circle at 50% 50%,
+    #1f005c,
+    #4d005f,
+    #991260,
+    #d75a5c,
+    #f79a62,
+    #ffb56b
   );
 }
