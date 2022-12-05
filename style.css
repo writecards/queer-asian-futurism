@@ -4,7 +4,7 @@ body {
 }
 
 p {
-  color: whitesmoke;
+  color: #ffb56b;
 }
 
 .container {
@@ -13,7 +13,7 @@ p {
   border-style: dashed; */
   width: 35vw;
   top: 42vh;
-  left: 30vw;
+  left: 33vw;
   /* margin: auto; */
   /* margin-top: 20%; */
   text-align: center;
@@ -67,11 +67,11 @@ p {
   position: absolute;
   z-index: -1;
   top: 20vh;
-  left: 31vw;
+  left: 32vw;
   width: 60vh;
   height: 60vh;
   margin: auto;
-  border: 2px #ffffff dashed;
+  border: 2px #ffb56b dashed;
   border-radius: 100%;
   -webkit-animation: spin-right 60s linear infinite;
   animation: spin-right 120s linear infinite;
@@ -93,4 +93,5 @@ p {
     #f79a62,
     #ffb56b
   );
+  cursor: pointer;
 }
