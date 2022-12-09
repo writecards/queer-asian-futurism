@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto Mono", monospace;
-  background-color: black;
+  /* background-color: black; */
 }
 
 p {
@@ -94,4 +94,20 @@ p {
     #ffb56b
   );
   cursor: pointer;
+}
+
+#content {
+  display: inline-block;
+  background-color: coral;
+  width: 100px;
+  text-align: center;
+}
+
+.node {
+  fill: chartreuse;
+}
+
+.link {
+  stroke: black;
+  stroke-width: 1px;
 }
