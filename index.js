@@ -21,8 +21,12 @@ let links = [
 
     {source: 'source5', target: 'target1'},
     {source: 'source6', target: 'target2'},
-    {source: 'source7', target: 'target2'},
+    {source: 'source7', target: 'target3'},
     {source: 'source8', target: 'target2'},
+    {source: 'source9', target: 'target4'},
+    {source: 'source10', target: 'target3'},
+    // {source: 'source11', target: 'target2'},
+    // {source: 'source12', target: 'target2'},
 
 ];
 
